@@ -1,0 +1,7 @@
+perf_ann <- performance( p_ann, "tpr", "fpr" )
+perf_nb <- performance(p_nb, "tpr", "fpr")
+perf_svm <- performance(p_svm, "tpr", "fpr")
+plot( perf_ann, col="green")
+plot(perf_nb, add = TRUE, col="red")
+plot(perf_svm, add = TRUE, col="blue")
+abline(0,1)

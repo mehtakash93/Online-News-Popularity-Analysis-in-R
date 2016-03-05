@@ -1,0 +1,7 @@
+source('~/sampling.R')
+source('~/kl.R')
+source('~/nb.R')
+source('~/ann.R')
+source('~/svm.R')
+source('~/suggest.R')
+source('~/results.R')
